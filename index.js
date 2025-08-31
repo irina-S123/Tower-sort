@@ -6,3 +6,4 @@
         return index % 2 === 0 ? row : row.slice().reverse();
     });
 }
+console.log(towelSort(matrix));
